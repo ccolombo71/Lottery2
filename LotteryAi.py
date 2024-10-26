@@ -71,6 +71,7 @@ def print_predicted_numbers(predicted_numbers):
    print("Predicted Numbers:")
    # Print only the first row of predicted numbers
    print(', '.join(map(str, predicted_numbers[0])))
+   st.write(', '.join(map(str, predicted_numbers[0])))
    print("============================================================")
    print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
    print("============================================================")
@@ -97,7 +98,7 @@ def main():
    
    # Print predicted numbers 
    print_predicted_numbers(predicted_numbers)
-
+    
 # Run main function if this script is run directly (not imported as a module)
 if __name__ == "__main__":
    main()
