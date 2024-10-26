@@ -70,8 +70,7 @@ def print_predicted_numbers(predicted_numbers):
    print("============================================================")
    print("Predicted Numbers:")
    # Print only the first row of predicted numbers
-   #print(', '.join(map(str, predicted_numbers[0])))
-   st.write(', '.join(map(str, predicted_numbers[0]))
+   print(', '.join(map(str, predicted_numbers[0])))
    print("============================================================")
    print("Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex")
    print("============================================================")
